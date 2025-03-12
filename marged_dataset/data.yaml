@@ -1,0 +1,7 @@
+train: /train/images
+val: ../valid/images
+test: ../test/images
+path: "/Users/shachafemanoel/Documents/YOLOv12 hazard detection for mobile device/YOLOv12-hazard-detection-for-mobile-device-1/marged_dataset"
+nc: 7
+names: ['Alligator Cracks', 'Damaged crosswalk', 'Damaged paint', 'Longitudinal Cracks', 'Manhole cover', 'Potholes', 'Transverse Cracks']
+

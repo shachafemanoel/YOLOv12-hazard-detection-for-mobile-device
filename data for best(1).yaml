@@ -1,0 +1,18 @@
+train: train
+val: valid
+test: test
+
+nc: 7
+names: ['Alligator Cracks', 'Damaged crosswalk', 'Damaged paint', 'Longitudinal Cracks', 'Manhole cover', 'Potholes', 'Transverse Cracks']
+
+roboflow:
+  - workspace: project-road-damage
+    project: different_types_of_ptholes
+    version: 2
+    license: CC BY 4.0
+    url: https://universe.roboflow.com/project-road-damage/different_types_of_ptholes/dataset/2
+  - workspace: eric-tam-oz6si
+    project: road-damages-detection
+    version: 7
+    license: CC BY 4.0
+    url: https://universe.roboflow.com/eric-tam-oz6si/road-damages-detection/dataset/7

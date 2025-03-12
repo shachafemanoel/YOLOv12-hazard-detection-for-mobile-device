@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 5
+names: ['Bowl Shaped Pothole', 'Delamination Pothole', 'Edge Break Pothole', 'Punch Out Pothole', 'Spalling Pothole']
+
+roboflow:
+  workspace: project-road-damage
+  project: different_types_of_ptholes
+  version: 2
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/project-road-damage/different_types_of_ptholes/dataset/2
